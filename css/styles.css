@@ -3,9 +3,14 @@
   position: relative;
   text-align: center;
   font-family: helvetica;
-  font-size: 90px;
-  color: rgb(255, 255, 255,.9);
+  font-size: 100pt;
+  color: rgba(255, 255, 255,.9);
   font-weight: bolder;
+}
+
+
+body {
+  background-image: url(/IMG/Lovepik_com-400236715-memphis-style-geometric-shape.png);
 }
 .centered p {
   font-size: 27pt;
@@ -20,70 +25,88 @@
   text-align: center;
 }
 
+h1 {
 
-body {
-
-    border-width: 10pt;
-    background-image: url('IMG/bodybackground.jpg');
+  text-align: center;
+  font-family:monospace;
+  color: rgb(255, 255, 255,.8);
+  margin-block: 20pt;
+  font-size:45pt;
+  margin-top: 30px;
 
 }
 
-h1 {
-  font-size: 35pt;
-  font-family:monospace;
-  width:90%;
-  box-sizing: border-box;
-  color: rgb(255, 255, 255, .8);
-  text-align: center;
+#banner {
+  opacity: 95%;
 }
 
 .sidebar {
-  font-family:courier;
+
   float:left;
   width: 25%;
-  font-size: 16pt;
-  background-color: rgba(143, 189, 189, 0.566);
+  background-color: rgba(39, 142, 142, 0.634);
   box-sizing: border-box;
-  border-width: 5px;
+  border-width: 10px;
   border-style: solid;
-  border-color: white;
+  border-color: rgba(130, 230, 185, 0.6);
   text-align: center;
+  font-weight: 400;
+  margin-left: 20pt;
+}
+
+
+a { 
+  font-size: 20pt;
+  font-weight: 800;
+  color: rgb(173, 225, 255);
+  text-align:center;
+  width: 100%;
+  font-family:sans-serif;
+
 }
 
 ol {
-  font-family:monospace;
-  color: brown;
+  font-family:courier;
+  color: rgb(255, 255, 255);
   font-size: 14pt;
-  padding: 10pt;
+  box-sizing: border-box;
+  padding: 30pt;
+  line-height: 25pt;
 }
 
 ul {
-  font-size: 12pt;
-  color: brown;
-  font-family: helvetica;
-  padding: 10pt;
+  font-size: 14pt;
+  line-height: 25pt;
+  color: white;
+  box-sizing: border-box;
+  padding: 30pt;
 }
 
-a {
-  font-weight: bold;
-  font-size: 18pt;
-  color: tan;
-  text-align: center;
-}
 .column {
   box-sizing: border-box;
-  border-color: white;
   border-style: solid;
-  border-width: 2pt;
-  text-align: center;
+  border-color: rgba(247, 234, 51, 0.74);
+  border-width: 10pt;
+  padding: 10pt;
+  margin-left: 20pt;
   float:left;
-  width: 65%;
-  background-color: rgba(165, 123, 33, 0.5);
+  width: 70%;
+  line-height: 30pt;
+  background-color: rgba(200, 132, 36, 0.641);
 }
+
+#questions {
+  font-size: 20pt;
+  
+}
+
 .column p {
-  font-size: 15pt;
-  font-weight: 200;
-  font-family: monospace;
+  font-size: 16pt;
+  font-weight: 400;
+  font-family: sans-serif;
   box-sizing: border-box;
   padding-inline: 10px;
+  text-align: center;
+  background-color: rgba(213, 149, 39, 0.165);
+  line-height: 25pt;
 }  
