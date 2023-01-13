@@ -1,98 +1,82 @@
-/*HEADER/PIC/NAME*/
-.container {
-  position: relative;
-  text-align: center;
-  font-family: helvetica;
-  font-size: 100pt;
-  color: rgba(255, 255, 255,.9);
-  font-weight: bolder;
-}
 
+.banner-container {
+  background-image: url("/img/fruitAI.png");
+  background-size: cover;
+  position:top;
+  text-align: center;
+  font-family: 'helvetica';
+  font-size: 70pt;
+  color: rgb(255, 255, 255);
+
+}
+.skills-container {
+  float:left;
+  width: 35%;
+  background-color: rgba(223, 122, 105, 0.634);
+  box-sizing: border-box;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
+  text-align: center;
+  margin: 5pt;
+
+}
 
 body {
-  background-image: url(/IMG/clouds.jpg);
+  background-image: url(/img/paint.png);
+  background-size: contain;
+  font-family:'Spot Mono';
+  margin: 1%;
 }
-.centered p {
-  font-size: 27pt;
-}
-.centered {
-  position:absolute;
-  top: 40%;
-  left: 40%;
-  left: 40%;
-  width: 100%;
-  transform: translate(-40%,-40%);
-  text-align: center;
+a{
+  color:rgb(255, 255, 255);
+  font-family:'Spot Mono';
+  text-underline-offset: 30%;
 }
 
 h1 {
-
   text-align: center;
-  font-family:monospace;
-  color: rgb(255, 255, 255,.8);
-  margin-block: 20pt;
-  font-size:45pt;
-  margin-top: 30px;
+  font-family:'Spot Mono';
+  color: rgb(255, 255, 255);
+  font-size: 30pt;
 
 }
 
-#banner {
-  opacity: 95%;
-}
-
-.sidebar {
-
+.left-column {
   float:left;
-  width: 25%;
-  background-color: rgba(39, 142, 142, 0.634);
+  width: 35%;
+  background-color: rgba(144, 165, 24, 0.634);
   box-sizing: border-box;
-  border-width: 10px;
+  border-width: 2px;
   border-style: solid;
-  border-color: rgba(130, 230, 185, 0.6);
+  border-color: rgb(255, 255, 255);
   text-align: center;
-  font-weight: 400;
-  margin-left: 20pt;
+  padding: 10pt;
+  margin: 5pt;
 }
 
 
-a { 
-  font-size: 20pt;
-  font-weight: 800;
-  color: rgb(173, 225, 255);
-  text-align:center;
-  width: 100%;
-  font-family:sans-serif;
-
-}
 
 ol {
-  font-family:courier;
   color: rgb(255, 255, 255);
-  font-size: 14pt;
-  box-sizing: border-box;
-  padding: 30pt;
-  line-height: 25pt;
+  font-size: 10pt;
 }
 
-ul {
-  font-size: 14pt;
-  line-height: 25pt;
-  color: white;
-  box-sizing: border-box;
-  padding: 30pt;
-}
-
-.column {
+.column-right {
   box-sizing: border-box;
   border-style: solid;
-  border-color: rgba(247, 234, 51, 0.74);
-  border-width: 10pt;
-  padding: 10pt;
-  margin-left: 20pt;
-  float:left;
-  width: 70%;
+  border-color: rgb(255, 255, 255);
+  border-width: 2pt;
+  padding: 20pt;
+  float:right;
+  width: 60%;
+  text-align: left;
   line-height: 30pt;
-  background-color: rgba(200, 132, 36, 0.641);
+  background-color: rgba(25, 147, 151, 0.557);
+  font-family:'Spot Mono';
+  margin: 5pt;
+
+
 }
 
 #questions {
@@ -100,13 +84,31 @@ ul {
   
 }
 
-.column p {
-  font-size: 16pt;
-  font-weight: 400;
-  font-family: sans-serif;
+.skills-container {
   box-sizing: border-box;
-  padding-inline: 10px;
-  text-align: center;
-  background-color: rgba(213, 149, 39, 0.165);
-  line-height: 25pt;
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
+  border-width: 2pt;
+  padding: 10pt;
+  margin-top: 2%;
+  float:left;
+  width: 35%;
+  text-align:left;
+  line-height: 20pt;
+  background-color: rgba(227, 140, 53, 0.557);
+
 }  
+
+#menu-button {
+  background-color: transparent;
+  border: none;
+  font-size: 20pt;
+  text-transform: uppercase;
+  color: white;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+}
